@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hust.soict.globalict.aims.gui.getTrack">
+   <children>
+      <Label layoutX="165.0" layoutY="14.0" text="ADD TRACK">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="trackField" layoutX="130.0" layoutY="167.0" promptText="Enter the title track" />
+      <Label layoutX="36.0" layoutY="60.0" text="List of track: title- length" />
+      <Label layoutX="36.0" layoutY="79.0" text="+, first - 17" />
+      <Label layoutX="36.0" layoutY="99.0" text="+, second - 12" />
+      <Label layoutX="36.0" layoutY="121.0" text="+, third - 15" />
+      <Label layoutX="38.0" layoutY="170.0" text="Title Track:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Button layoutX="323.0" layoutY="167.0" mnemonicParsing="false" onAction="#addTrack" text="ADD" />
+   </children>
+</Pane>

@@ -1,0 +1,6 @@
+cd1/a/a/14.3/a/a
+cd2/b/b/10.8/b/b
+cd3/c/c/13.1/c/c
+cd4/d/d/11.2/d/d
+cd5/e/e/10.0/e/e
+cd6/f/f/23.2/f/f

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hust.soict.globalict.aims.gui.playDVD">
+   <children>
+      <Label layoutX="200.0" layoutY="38.0" text="DVD PLAY">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="73.0" layoutY="134.0" text="TITLE:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="titleTextField" layoutX="176.0" layoutY="134.0" />
+      <Label layoutX="73.0" layoutY="200.0" text="LENGTH:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="lengthTextField" layoutX="176.0" layoutY="200.0" />
+      <Button layoutX="14.0" layoutY="361.0" mnemonicParsing="false" onAction="#back" text="BACK" />
+   </children>
+</Pane>

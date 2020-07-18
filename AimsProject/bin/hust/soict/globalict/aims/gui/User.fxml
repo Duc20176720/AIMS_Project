@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hust.soict.globalict.aims.gui.user">
+   <children>
+   	  <Pane layoutY="25.0" prefHeight="84.0" prefWidth="600.0" style="-fx-background-color: #B32809; -fx-background-radius: 30;" />
+      <Pane prefHeight="84.0" prefWidth="600.0" style="-fx-background-color: #4CB309; -fx-background-radius: 45;">
+         <children>
+            <Label layoutX="262.0" layoutY="23.0" text="USER">
+               <font>
+                  <Font size="33.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#cd2f9d" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+         </children>
+      </Pane>
+      <Button layoutX="184.0" layoutY="187.0" mnemonicParsing="false" onAction="#admin" prefHeight="97.0" prefWidth="232.0" text="Admin" />
+      <Button layoutX="184.0" layoutY="329.0" mnemonicParsing="false" onAction="#customer" prefHeight="97.0" prefWidth="232.0" text="Customer" />
+   </children>
+</Pane>

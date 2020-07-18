@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hust.soict.globalict.aims.gui.controller">
+   <children>
+   	  <Pane layoutY="25.0" prefHeight="84.0" prefWidth="600.0" style="-fx-background-color: #B32809; -fx-background-radius: 30;" />
+      <Pane prefHeight="84.0" prefWidth="600.0" style="-fx-background-color: #4CB309; -fx-background-radius: 45;">
+         <children>
+            <Label layoutX="38.0" layoutY="23.0" text="ORDER MANAGER APPLICATION">
+               <font>
+                  <Font size="33.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#cd2f9d" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+         </children>
+      </Pane>
+      <TableView fx:id="table" fixedCellSize="0.0" layoutX="14.0" layoutY="119.0" prefHeight="363.0" prefWidth="380.0">
+        <columns>
+          <TableColumn fx:id="idColumn" prefWidth="95.0" text="ID" />
+          <TableColumn fx:id="titleColumn" prefWidth="95.0" text="Title" />
+            <TableColumn fx:id="categoryColumn" prefWidth="95.0" text="Category" />
+            <TableColumn fx:id="costColumn" prefWidth="95.0" text="Cost" />
+        </columns>
+      </TableView>
+      <Label layoutX="414.0" layoutY="206.0" text="ID" />
+      <TextField fx:id="idTextField" layoutX="440.0" layoutY="201.0" prefHeight="25.0" prefWidth="145.0" promptText="Enter the ID " />
+      <Button layoutX="414.0" layoutY="355.0" mnemonicParsing="false" onAction="#add" text="ADD" />
+      <Button layoutX="407.0" layoutY="119.0" mnemonicParsing="false" onAction="#printMedia" text="View the list of product" />
+      <Button layoutX="414.0" layoutY="403.0" mnemonicParsing="false" onAction="#remove" text="REMOVE" />
+      <Button layoutX="414.0" layoutY="451.0" mnemonicParsing="false" onAction="#totalCost" text="Total Cost" />
+      <Button layoutX="156.0" layoutY="504.0" mnemonicParsing="false" onAction="#getDetail" text="Detail Items" />
+      <Button layoutX="538.0" layoutY="561.0" mnemonicParsing="false" onAction="#exit" text="EXIT" />
+   </children>
+</Pane>

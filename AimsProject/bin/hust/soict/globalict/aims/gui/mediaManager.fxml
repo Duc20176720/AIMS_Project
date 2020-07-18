@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hust.soict.globalict.aims.gui.user">
+   <children>
+      <Button layoutX="191.0" layoutY="100.0" mnemonicParsing="false" onAction="#dvd" prefHeight="65.0" prefWidth="237.0" text="Digital Video Disc" />
+      <Button layoutX="191.0" layoutY="192.0" mnemonicParsing="false" onAction="#cd" prefHeight="65.0" prefWidth="237.0" text="Compact Disc" />
+      <Button layoutX="191.0" layoutY="287.0" mnemonicParsing="false" onAction="#book" prefHeight="65.0" prefWidth="237.0" text="Book" />
+      <Label layoutX="215.0" layoutY="25.0" text="Choose type">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Button layoutX="539.0" layoutY="561.0" mnemonicParsing="false" onAction="#exit" text="EXIT" />
+   </children>
+</Pane>
